@@ -20,6 +20,7 @@ export default class App extends Component {
           active={activeItem === 'personal'}
           onClick={this.handleItemClick}
           href="/"
+          style={{marginLeft: "150px"}}
         >
           <h3>Jaron Johnson</h3>
         </Menu.Item>
@@ -47,6 +48,7 @@ export default class App extends Component {
           active={activeItem === 'contact'}
           onClick={this.handleItemClick}
           href="/contact"
+          style={{marginRight: "150px"}}
         >
           Contact
         </Menu.Item>
